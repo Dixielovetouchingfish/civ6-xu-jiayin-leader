@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="4a81f478-6f2b-4ce8-80ae-589fac0a272f" version="1">
+<Mod id="4a81f478-6f2b-4ce8-80ae-589fac0a272f" version="2">
   <Properties>
     <Name>LOC_XJY_MOD_NAME</Name>
     <Description>LOC_XJY_MOD_DESCRIPTION</Description>
-    <Created>1785324726</Created>
+    <Created>1785346622</Created>
     <Teaser>LOC_XJY_MOD_TEASER</Teaser>
     <Authors>qwert</Authors>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -50,6 +50,9 @@
     </UpdateDatabase>
     <UpdateDatabase id="XJY_YuhuGate">
       <File>Data/XJY_YuhuGate.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="XJY_v11">
+      <File>Data/XJY_v11.sql</File>
     </UpdateDatabase>
     <AddGameplayScripts id="XJY_YuhuGateScript">
       <File>Lua/XJY_YuhuGate.lua</File>
@@ -105,6 +108,7 @@
     <File>Data/XJY_Config.sql</File>
     <File>Data/XJY_Gameplay.sql</File>
     <File>Data/XJY_Hengchi.sql</File>
+    <File>Data/XJY_v11.sql</File>
     <File>Data/XJY_VisualConfig.xml</File>
     <File>Data/XJY_YuhuGate.sql</File>
     <File>EmptyMod1.dep</File>

@@ -2,24 +2,24 @@
 <GameData>
   <LocalizedText>
     <Row Tag="LOC_XJY_MOD_NAME" Language="en_US">
-      <Text>Xu Jiayin Leads China</Text>
+      <Text>Xu Jiayin Leads China v1.1 — High-Turnover Development</Text>
     </Row>
     <Row Tag="LOC_XJY_MOD_NAME" Language="zh_Hans_CN">
-      <Text>许家印领导中华帝国</Text>
+      <Text>许家印领导中华帝国 v1.1——高周转开发</Text>
     </Row>
 
     <Row Tag="LOC_XJY_MOD_TEASER" Language="en_US">
-      <Text>Adds Xu Jiayin as an alternate leader for China. This is an early gameplay prototype for Civilization VI: Gathering Storm.</Text>
+      <Text>Xu Jiayin leads China through rapid early development, leveraged expansion, and late debt restructuring in the v1.1 High-Turnover Development update.</Text>
     </Row>
     <Row Tag="LOC_XJY_MOD_TEASER" Language="zh_Hans_CN">
-      <Text>为中华帝国添加替代领袖许家印。这是《文明VI：风云变幻》的早期玩法原型。</Text>
+      <Text>v1.1“高周转开发”更新：许家印带领中华帝国经历前期高速开发、中期杠杆扩张与后期债务重组。</Text>
     </Row>
 
     <Row Tag="LOC_XJY_MOD_DESCRIPTION" Language="en_US">
-      <Text>Adds Xu Jiayin as an alternate leader for China. This is an early gameplay prototype for Civilization VI: Gathering Storm.</Text>
+      <Text>Adds Xu Jiayin as an alternate leader for China in Civilization VI: Gathering Storm. Version 1.1 rebuilds his three-phase ability around qualified early projects, speed-scaled financing, and escalating late liabilities.</Text>
     </Row>
     <Row Tag="LOC_XJY_MOD_DESCRIPTION" Language="zh_Hans_CN">
-      <Text>为中华帝国添加替代领袖许家印。这是《文明VI：风云变幻》的早期玩法原型。</Text>
+      <Text>为《文明VI：风云变幻》的中华帝国添加替代领袖许家印。v1.1围绕前期项目资格、随游戏速度缩放的融资与逐步加重的后期债务重构三阶段能力。</Text>
     </Row>
 
     <Row Tag="LOC_LEADER_XJY_XU_JIAYIN_NAME" Language="en_US">
@@ -58,10 +58,10 @@
     </Row>
 
     <Row Tag="LOC_TRAIT_LEADER_XJY_PLACEHOLDER_DESCRIPTION" Language="en_US">
-      <Text>【Glorious Expansion | Ancient and Classical】 Demographic Dividend: All cities gain +25% Population Growth and +1 Housing; each City Center provides +2 Food and +2 Production. Engineering Education: Each point of Population provides an additional 0.25 Science. Site Security: Land combat units gain +5 Combat Strength against Barbarians. Land Reserve: Non-capital cities below 4 Population gain +8 Loyalty per turn. Presale Proceeds: Each city gains Gold once when it first completes a specialty district (40 at Standard speed, scaled by game speed). The first specialty district constructed in each city receives +100% Production. Later specialty districts and non-Wonder buildings receive +40% Production. Settlers receive +25% Production, and Great Merchant points are increased by 50%.[NEWLINE][NEWLINE]【High-Leverage Expansion | Medieval and Renaissance】 Specialty districts and non-Wonder buildings receive +20% Production. Great Merchant points are increased by 25%, and Great Engineer points by 50%. Cities with at least 3 specialty districts lose 3 Gold per turn.[NEWLINE][NEWLINE]【Debt Restructuring | Industrial Era and later】 All positive bonuses are removed. Cities with at least 3 specialty districts lose 5 Gold per turn; cities with at least 5 specialty districts lose 1 Amenity; the Capital gains 8 Gold per turn.</Text>
+      <Text>【Glorious Expansion | Ancient and Classical】 All cities gain +25% Population Growth and +1 Housing; each City Center provides +2 Food and +2 Production, and each Population provides +0.25 Science. Settlers gain +25% Production, non-Wonder buildings gain +30%, and each city's first specialty district gains +100%. Land combat units gain +5 Combat Strength against Barbarians. A non-Capital city personally founded in this phase becomes an Early Development Project: while it has at most 3 Population and no specialty district, it gains +8 Loyalty per turn; at 4 or more Population it instead loses 2 Gold per turn until its first specialty district. Completing that district pays speed-scaled Presale Proceeds: the first five projects receive 80 Gold, plus 40 if completed at 1–3 Population; later projects receive 40 plus 20. On-time delivery also grants the city +1 Amenity for 10 turns at Standard speed.[NEWLINE][NEWLINE]【High-Leverage Expansion | Medieval and Renaissance】 Specialty districts and non-Wonder buildings gain +20% Production. Great Merchant and Great Engineer points increase by 50%. The first time a city reaches 3 specialty districts it receives 100 Gold at Standard speed; while it has at least 3, it loses 4 Gold per turn, and at least 5 districts additionally causes -1 Amenity.[NEWLINE][NEWLINE]【Debt Restructuring | Industrial Era and later】 All earlier positive leader bonuses end. Every city produces 30% less Gold. Cities with at least 3 specialty districts lose another 6 Gold per turn; cities with at least 5 lose an additional 4 Gold, 1 Amenity, 15% Production, and 10% Science. A Guaranteed Delivery Program in such a five-district city offsets the 15% Production penalty and reduces the purchase cost of land combat units by 20%, but does not cancel any other liability.</Text>
     </Row>
     <Row Tag="LOC_TRAIT_LEADER_XJY_PLACEHOLDER_DESCRIPTION" Language="zh_Hans_CN">
-      <Text>【风光无限｜远古、古典】 人口红利：所有城市人口增长速度提高25%、住房增加1，每座城市的城市中心额外提供2点食物和2点生产力。工程教育：每点人口额外提供0.25点科技值。工地安保：陆地战斗单位对蛮族获得5点战斗力。土地储备：非首都城市在人口低于4时每回合获得8点忠诚度。预售回款：每座城市首次完成专业区域时获得一次金币（标准速度40，随游戏速度调整）。每座城市建造第一个专业区域时生产力提高100%；建造后续专业区域和非奇观建筑时生产力提高40%。训练移民时生产力提高25%，大商人点数提高50%。[NEWLINE][NEWLINE]【高杠杆扩张｜中世纪、文艺复兴】 专业区域和非奇观建筑生产力提高20%；大商人点数提高25%，大工程师点数提高50%。拥有至少3个专业区域的城市每回合损失3金币。[NEWLINE][NEWLINE]【债务重组｜工业时代及以后】 所有正面加成失效。拥有至少3个专业区域的城市每回合损失5金币；拥有至少5个专业区域的城市减少1宜居度；首都每回合获得8金币。</Text>
+      <Text>【风光无限｜远古、古典】 所有城市人口增长速度提高25%、住房+1，城市中心额外提供2食物和2生产力，每点人口额外提供0.25科技值。开拓者生产力提高25%，非奇观建筑提高30%，每座城市的首个专业区域提高100%。陆地战斗单位对蛮族+5战斗力。本阶段亲自建立的非首都城市取得“前期开发项目”资格：人口不超过3且无专业区域时每回合+8忠诚度；达到4人口后改为每回合-2金币，直至完成首个专业区域。首区交付时获得随游戏速度缩放的预售回款：前5个项目获得80金币，若交付时为1至3人口再获40；之后减半为40+20。按期交付的城市另获临时+1宜居度，标准速度持续10回合。[NEWLINE][NEWLINE]【高杠杆扩张｜中古、文艺复兴】 专业区域和非奇观建筑生产力提高20%，大商人与大工程师点数提高50%。每座城市首次达到3个专业区域时获得标准速度100金币；拥有至少3区时每回合-4金币，至少5区时额外-1宜居度。[NEWLINE][NEWLINE]【债务重组｜工业时代及以后】 此前的正面领袖加成全部结束，所有城市金币产出降低30%。拥有至少3个专业区域的城市每回合再损失6金币；至少5区时额外每回合-4金币、-1宜居度、-15%生产力和-10%科技值。五区城市的保交楼工程可抵消15%生产力处罚，并使本城购买陆地战斗单位的费用降低20%，但不取消其他债务。</Text>
     </Row>
 
     <Row Tag="LOC_BUILDING_XJY_BAOJIAOLOU_NAME" Language="en_US">
@@ -72,24 +72,24 @@
     </Row>
 
     <Row Tag="LOC_BUILDING_XJY_BAOJIAOLOU_DESCRIPTION" Language="en_US">
-      <Text>A City Center building unique to Xu Jiayin, unlocked at Urbanization. Provides 2 Housing, 1 Amenity, and 3 Gold per turn, easing the pressures created by rapid expansion.</Text>
+      <Text>A City Center building unique to Xu Jiayin, unlocked at Urbanization. Provides 2 Housing, 1 Amenity, and 3 Gold per turn. From the Industrial Era onward, in a city with at least 5 specialty districts, it offsets the 15% Production penalty from Debt Restructuring. Land combat units purchased in this city cost 20% less.</Text>
     </Row>
     <Row Tag="LOC_BUILDING_XJY_BAOJIAOLOU_DESCRIPTION" Language="zh_Hans_CN">
-      <Text>城市化市政解锁的许家印专属城市中心建筑。提供2点住房、1点宜居度和每回合3金币，用于缓解高速扩张带来的城市压力。</Text>
+      <Text>城市化市政解锁的许家印专属城市中心建筑。提供2点住房、1点宜居度和每回合3金币。工业时代以后，若本城拥有至少5个专业区域，则抵消债务重组的15%生产力处罚；本城购买陆地战斗单位的费用降低20%。</Text>
     </Row>
 
     <Row Tag="LOC_BUILDING_XJY_BAOJIAOLOU_PEDIA" Language="en_US">
-      <Text>Rapid urban expansion can leave major construction commitments requiring additional capital, production, and administration. The Guaranteed Delivery Program represents efforts to stabilize housing and city operations through continued investment.</Text>
+      <Text>Rapid urban expansion can leave major construction commitments requiring additional capital, production, and administration. In addition to 2 Housing, 1 Amenity, and 3 Gold, the Guaranteed Delivery Program restores the 15% Production lost by a five-district city during Debt Restructuring and reduces the purchase cost of land combat units in this city by 20%. It does not restore Gold or Science, remove fixed debt, or apply the Production recovery to less-developed cities.</Text>
     </Row>
     <Row Tag="LOC_BUILDING_XJY_BAOJIAOLOU_PEDIA" Language="zh_Hans_CN">
-      <Text>高速城市扩张留下了大量需要继续投入资源完成和维护的建设项目。保交楼工程代表通过追加资金、生产力和城市治理，逐步稳定住房与城市运行的恢复措施。</Text>
+      <Text>高速城市扩张留下了大量需要继续投入资源完成和维护的建设项目。除2点住房、1点宜居度和每回合3金币外，保交楼工程会在债务重组期间为五区城市恢复被扣除的15%生产力，并使本城购买陆地战斗单位的费用降低20%。它不会恢复金币或科技、免除固定债务，也不会让低开发城市无条件获得生产力。</Text>
     </Row>
 
     <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_XJY_BAOJIAOLOU_CHAPTER_HISTORY_PARA_1" Language="en_US">
-      <Text>Rapid urban expansion can leave major construction commitments requiring additional capital, production, and administration. The Guaranteed Delivery Program represents efforts to stabilize housing and city operations through continued investment.</Text>
+      <Text>Rapid urban expansion can leave major construction commitments requiring additional capital, production, and administration. In addition to 2 Housing, 1 Amenity, and 3 Gold, the Guaranteed Delivery Program restores the 15% Production lost by a five-district city during Debt Restructuring and reduces the purchase cost of land combat units in this city by 20%. It does not restore Gold or Science, remove fixed debt, or apply the Production recovery to less-developed cities.</Text>
     </Row>
     <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_XJY_BAOJIAOLOU_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-      <Text>高速城市扩张留下了大量需要继续投入资源完成和维护的建设项目。保交楼工程代表通过追加资金、生产力和城市治理，逐步稳定住房与城市运行的恢复措施。</Text>
+      <Text>高速城市扩张留下了大量需要继续投入资源完成和维护的建设项目。除2点住房、1点宜居度和每回合3金币外，保交楼工程会在债务重组期间为五区城市恢复被扣除的15%生产力，并使本城购买陆地战斗单位的费用降低20%。它不会恢复金币或科技、免除固定债务，也不会让低开发城市无条件获得生产力。</Text>
     </Row>
 
     <Row Tag="LOC_UNIT_XJY_HENGCHI_NAME" Language="en_US">
@@ -100,10 +100,10 @@
     </Row>
 
     <Row Tag="LOC_UNIT_XJY_HENGCHI_DESCRIPTION" Language="en_US">
-      <Text>A Modern Armor replacement unique to Xu Jiayin. It costs 15% less Production, has +1 Movement, and gains +5 Combat Strength while fighting in its owner's territory. It has the same maintenance and strategic resource requirements as Modern Armor.</Text>
+      <Text>A Modern Armor replacement unique to Xu Jiayin. Costs 580 Production, has 90 Combat Strength and 5 Movement, and gains +10 Combat Strength in its owner's territory. It retains Modern Armor's maintenance, Oil requirement, unit class, upgrade path, model, animation, and audio.</Text>
     </Row>
     <Row Tag="LOC_UNIT_XJY_HENGCHI_DESCRIPTION" Language="zh_Hans_CN">
-      <Text>许家印专属的现代装甲单位，替代现代坦克。生产成本降低15%，移动力增加1，在己方领土内作战时获得5点战斗力。维护费和战略资源需求与现代坦克相同。</Text>
+      <Text>许家印专属的现代装甲单位，替代现代坦克。生产成本580，基础战斗力90，移动力5；在己方领土内获得10点战斗力。保留现代坦克的维护费、石油需求、单位类别、升级路线、模型、动画与音效。</Text>
     </Row>
 
     <Row Tag="LOC_ABILITY_XJY_DOMESTIC_SUPPLY_CHAIN_NAME" Language="en_US">
@@ -114,10 +114,10 @@
     </Row>
 
     <Row Tag="LOC_ABILITY_XJY_DOMESTIC_SUPPLY_CHAIN_DESCRIPTION" Language="en_US">
-      <Text>+5 Combat Strength while fighting in this unit owner's territory.</Text>
+      <Text>+10 Combat Strength while fighting in this unit owner's territory.</Text>
     </Row>
     <Row Tag="LOC_ABILITY_XJY_DOMESTIC_SUPPLY_CHAIN_DESCRIPTION" Language="zh_Hans_CN">
-      <Text>在己方领土内战斗时获得5点战斗力。</Text>
+      <Text>在己方领土内战斗时获得10点战斗力。</Text>
     </Row>
 
     <Row Tag="LOC_ABILITY_XJY_DOMESTIC_SUPPLY_CHAIN_COMBAT_PREVIEW" Language="en_US">
@@ -128,17 +128,17 @@
     </Row>
 
     <Row Tag="LOC_UNIT_XJY_HENGCHI_PEDIA" Language="en_US">
-      <Text>The Hengchi Vehicle represents a modern manufacturing project supported by large-scale capital and industrial investment. In gameplay, it can be deployed at a lower Production cost and gains a defensive advantage from domestic infrastructure, while retaining the normal maintenance and strategic resource requirements of Modern Armor.</Text>
+      <Text>The Hengchi Vehicle represents a modern manufacturing project supported by large-scale capital and industrial investment. In gameplay it costs 580 Production, has 90 Combat Strength and 5 Movement, and reaches 100 Combat Strength in friendly territory through its +10 Domestic Supply Chain bonus. It retains Modern Armor's maintenance, Oil requirement, class, upgrades, model, animation, and audio.</Text>
     </Row>
     <Row Tag="LOC_UNIT_XJY_HENGCHI_PEDIA" Language="zh_Hans_CN">
-      <Text>恒驰汽车代表在大规模资本和产业投入下形成的现代制造项目。在游戏中，它能够以较低生产成本快速部署，并依靠本土基础设施获得防御优势，但其维护和战略资源需求并未减少。</Text>
+      <Text>恒驰汽车代表在大规模资本和产业投入下形成的现代制造项目。在游戏中，它需要580生产力，具有90战斗力与5移动力，并通过“本土产业链”在己方领土达到100战斗力。其维护费、石油需求、单位类别、升级路线、模型、动画与音效均沿用现代坦克。</Text>
     </Row>
 
     <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_XJY_HENGCHI_CHAPTER_HISTORY_PARA_1" Language="en_US">
-      <Text>The Hengchi Vehicle represents a modern manufacturing project supported by large-scale capital and industrial investment. In gameplay, it can be deployed at a lower Production cost and gains a defensive advantage from domestic infrastructure, while retaining the normal maintenance and strategic resource requirements of Modern Armor.</Text>
+      <Text>The Hengchi Vehicle represents a modern manufacturing project supported by large-scale capital and industrial investment. In gameplay it costs 580 Production, has 90 Combat Strength and 5 Movement, and reaches 100 Combat Strength in friendly territory through its +10 Domestic Supply Chain bonus. It retains Modern Armor's maintenance, Oil requirement, class, upgrades, model, animation, and audio.</Text>
     </Row>
     <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_XJY_HENGCHI_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-      <Text>恒驰汽车代表在大规模资本和产业投入下形成的现代制造项目。在游戏中，它能够以较低生产成本快速部署，并依靠本土基础设施获得防御优势，但其维护和战略资源需求并未减少。</Text>
+      <Text>恒驰汽车代表在大规模资本和产业投入下形成的现代制造项目。在游戏中，它需要580生产力，具有90战斗力与5移动力，并通过“本土产业链”在己方领土达到100战斗力。其维护费、石油需求、单位类别、升级路线、模型、动画与音效均沿用现代坦克。</Text>
     </Row>
 
     <Row Tag="LOC_BUILDING_XJY_YUHU_GATE_NAME" Language="en_US">

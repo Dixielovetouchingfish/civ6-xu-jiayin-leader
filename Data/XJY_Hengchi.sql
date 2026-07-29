@@ -69,7 +69,7 @@ VALUES
     2,
     1,
     'DOMAIN_LAND',
-    95,
+    90,
     0,
     0,
     0,
@@ -220,7 +220,7 @@ VALUES
 (
     'MODIFIER_XJY_HENGCHI_OWN_TERRITORY_COMBAT',
     'Amount',
-    5
+    10
 );
 
 INSERT INTO ModifierStrings
