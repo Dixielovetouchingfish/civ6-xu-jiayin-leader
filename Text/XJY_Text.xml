@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Row Tag="LOC_XJY_MOD_NAME" Language="en_US">
+      <Text>Xu Jiayin Leads China</Text>
+    </Row>
+    <Row Tag="LOC_XJY_MOD_NAME" Language="zh_Hans_CN">
+      <Text>许家印领导中华帝国</Text>
+    </Row>
+
+    <Row Tag="LOC_XJY_MOD_TEASER" Language="en_US">
+      <Text>Adds Xu Jiayin as an alternate leader for China. This is an early gameplay prototype for Civilization VI: Gathering Storm.</Text>
+    </Row>
+    <Row Tag="LOC_XJY_MOD_TEASER" Language="zh_Hans_CN">
+      <Text>为中华帝国添加替代领袖许家印。这是《文明VI：风云变幻》的早期玩法原型。</Text>
+    </Row>
+
+    <Row Tag="LOC_XJY_MOD_DESCRIPTION" Language="en_US">
+      <Text>Adds Xu Jiayin as an alternate leader for China. This is an early gameplay prototype for Civilization VI: Gathering Storm.</Text>
+    </Row>
+    <Row Tag="LOC_XJY_MOD_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>为中华帝国添加替代领袖许家印。这是《文明VI：风云变幻》的早期玩法原型。</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_XJY_XU_JIAYIN_NAME" Language="en_US">
+      <Text>Xu Jiayin</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_XJY_XU_JIAYIN_NAME" Language="zh_Hans_CN">
+      <Text>许家印</Text>
+    </Row>
+
+    <Row Tag="LOC_LOADING_INFO_LEADER_XJY_XU_JIAYIN" Language="en_US">
+      <Text>Xu Jiayin, you rose from an unassuming beginning into the light of towering skylines, writing speed, scale, and promises into the construction plans of an empire. Lead China forward at full speed—but remember that every wonder must eventually be accounted for.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_XJY_XU_JIAYIN" Language="zh_Hans_CN">
+      <Text>许家印，你从不起眼的起点走进摩天楼的灯光里，把速度、规模和承诺写进帝国的施工蓝图。带领中华文明高歌猛进吧——只是别忘了，每一座奇迹，最终都要结算。</Text>
+    </Row>
+
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XJY_XU_JIAYIN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+      <Text>Xu Jiayin believes that a problem large enough can begin to resemble a vision, and that a plan moving fast enough can leave the bill for the next turn. Under his leadership, cities expand rapidly in the early game, struggle to maintain momentum in the middle game, and later rely on Guaranteed Delivery Programs, Hengchi Vehicles, and a sufficiently grand gateway to preserve appearances. How history will settle the account remains uncertain—the financial report is still loading.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XJY_XU_JIAYIN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>许家印相信，问题只要足够大，就会显得像愿景；计划只要足够快，就能把账单留给下一回合。在他的领导下，城市前期野蛮生长，中期忙于周转，后期则依靠保交楼工程、恒驰汽车与一座足够宏伟的大门维持体面。历史最终会如何结算尚未可知——财务报表仍在加载。</Text>
+    </Row>
+
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XJY_XU_JIAYIN_QUOTE" Language="en_US">
+      <Text>Advance at full speed. Leave the rest for the next turn.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_XJY_XU_JIAYIN_QUOTE" Language="zh_Hans_CN">
+      <Text>先高歌猛进，剩下的事情留到下一回合。</Text>
+    </Row>
+
+    <Row Tag="LOC_TRAIT_LEADER_XJY_PLACEHOLDER_NAME" Language="en_US">
+      <Text>Advance at Full Speed</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_XJY_PLACEHOLDER_NAME" Language="zh_Hans_CN">
+      <Text>高歌猛进</Text>
+    </Row>
+
+    <Row Tag="LOC_TRAIT_LEADER_XJY_PLACEHOLDER_DESCRIPTION" Language="en_US">
+      <Text>【Glorious Expansion | Ancient and Classical】 Demographic Dividend: All cities gain +25% Population Growth and +1 Housing; each City Center provides +2 Food and +2 Production. Engineering Education: Each point of Population provides an additional 0.25 Science. Site Security: Land combat units gain +5 Combat Strength against Barbarians. Land Reserve: Non-capital cities below 4 Population gain +8 Loyalty per turn. Presale Proceeds: Each city gains Gold once when it first completes a specialty district (40 at Standard speed, scaled by game speed). The first specialty district constructed in each city receives +100% Production. Later specialty districts and non-Wonder buildings receive +40% Production. Settlers receive +25% Production, and Great Merchant points are increased by 50%.[NEWLINE][NEWLINE]【High-Leverage Expansion | Medieval and Renaissance】 Specialty districts and non-Wonder buildings receive +20% Production. Great Merchant points are increased by 25%, and Great Engineer points by 50%. Cities with at least 3 specialty districts lose 3 Gold per turn.[NEWLINE][NEWLINE]【Debt Restructuring | Industrial Era and later】 All positive bonuses are removed. Cities with at least 3 specialty districts lose 5 Gold per turn; cities with at least 5 specialty districts lose 1 Amenity; the Capital gains 8 Gold per turn.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_XJY_PLACEHOLDER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>【风光无限｜远古、古典】 人口红利：所有城市人口增长速度提高25%、住房增加1，每座城市的城市中心额外提供2点食物和2点生产力。工程教育：每点人口额外提供0.25点科技值。工地安保：陆地战斗单位对蛮族获得5点战斗力。土地储备：非首都城市在人口低于4时每回合获得8点忠诚度。预售回款：每座城市首次完成专业区域时获得一次金币（标准速度40，随游戏速度调整）。每座城市建造第一个专业区域时生产力提高100%；建造后续专业区域和非奇观建筑时生产力提高40%。训练移民时生产力提高25%，大商人点数提高50%。[NEWLINE][NEWLINE]【高杠杆扩张｜中世纪、文艺复兴】 专业区域和非奇观建筑生产力提高20%；大商人点数提高25%，大工程师点数提高50%。拥有至少3个专业区域的城市每回合损失3金币。[NEWLINE][NEWLINE]【债务重组｜工业时代及以后】 所有正面加成失效。拥有至少3个专业区域的城市每回合损失5金币；拥有至少5个专业区域的城市减少1宜居度；首都每回合获得8金币。</Text>
+    </Row>
+
+    <Row Tag="LOC_BUILDING_XJY_BAOJIAOLOU_NAME" Language="en_US">
+      <Text>Guaranteed Delivery Program</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_XJY_BAOJIAOLOU_NAME" Language="zh_Hans_CN">
+      <Text>保交楼工程</Text>
+    </Row>
+
+    <Row Tag="LOC_BUILDING_XJY_BAOJIAOLOU_DESCRIPTION" Language="en_US">
+      <Text>A City Center building unique to Xu Jiayin, unlocked at Urbanization. Provides 2 Housing, 1 Amenity, and 3 Gold per turn, easing the pressures created by rapid expansion.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_XJY_BAOJIAOLOU_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>城市化市政解锁的许家印专属城市中心建筑。提供2点住房、1点宜居度和每回合3金币，用于缓解高速扩张带来的城市压力。</Text>
+    </Row>
+
+    <Row Tag="LOC_BUILDING_XJY_BAOJIAOLOU_PEDIA" Language="en_US">
+      <Text>Rapid urban expansion can leave major construction commitments requiring additional capital, production, and administration. The Guaranteed Delivery Program represents efforts to stabilize housing and city operations through continued investment.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_XJY_BAOJIAOLOU_PEDIA" Language="zh_Hans_CN">
+      <Text>高速城市扩张留下了大量需要继续投入资源完成和维护的建设项目。保交楼工程代表通过追加资金、生产力和城市治理，逐步稳定住房与城市运行的恢复措施。</Text>
+    </Row>
+
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_XJY_BAOJIAOLOU_CHAPTER_HISTORY_PARA_1" Language="en_US">
+      <Text>Rapid urban expansion can leave major construction commitments requiring additional capital, production, and administration. The Guaranteed Delivery Program represents efforts to stabilize housing and city operations through continued investment.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_XJY_BAOJIAOLOU_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>高速城市扩张留下了大量需要继续投入资源完成和维护的建设项目。保交楼工程代表通过追加资金、生产力和城市治理，逐步稳定住房与城市运行的恢复措施。</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_XJY_HENGCHI_NAME" Language="en_US">
+      <Text>Hengchi Vehicle</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_XJY_HENGCHI_NAME" Language="zh_Hans_CN">
+      <Text>恒驰汽车</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_XJY_HENGCHI_DESCRIPTION" Language="en_US">
+      <Text>A Modern Armor replacement unique to Xu Jiayin. It costs 15% less Production, has +1 Movement, and gains +5 Combat Strength while fighting in its owner's territory. It has the same maintenance and strategic resource requirements as Modern Armor.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_XJY_HENGCHI_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>许家印专属的现代装甲单位，替代现代坦克。生产成本降低15%，移动力增加1，在己方领土内作战时获得5点战斗力。维护费和战略资源需求与现代坦克相同。</Text>
+    </Row>
+
+    <Row Tag="LOC_ABILITY_XJY_DOMESTIC_SUPPLY_CHAIN_NAME" Language="en_US">
+      <Text>Domestic Supply Chain</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_XJY_DOMESTIC_SUPPLY_CHAIN_NAME" Language="zh_Hans_CN">
+      <Text>本土产业链</Text>
+    </Row>
+
+    <Row Tag="LOC_ABILITY_XJY_DOMESTIC_SUPPLY_CHAIN_DESCRIPTION" Language="en_US">
+      <Text>+5 Combat Strength while fighting in this unit owner's territory.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_XJY_DOMESTIC_SUPPLY_CHAIN_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>在己方领土内战斗时获得5点战斗力。</Text>
+    </Row>
+
+    <Row Tag="LOC_ABILITY_XJY_DOMESTIC_SUPPLY_CHAIN_COMBAT_PREVIEW" Language="en_US">
+      <Text>Domestic Supply Chain: +{1_Amount} [ICON_Strength] Combat Strength while fighting in this unit owner's territory.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_XJY_DOMESTIC_SUPPLY_CHAIN_COMBAT_PREVIEW" Language="zh_Hans_CN">
+      <Text>本土产业链：在己方领土内作战时+{1_Amount} [ICON_Strength] 战斗力。</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_XJY_HENGCHI_PEDIA" Language="en_US">
+      <Text>The Hengchi Vehicle represents a modern manufacturing project supported by large-scale capital and industrial investment. In gameplay, it can be deployed at a lower Production cost and gains a defensive advantage from domestic infrastructure, while retaining the normal maintenance and strategic resource requirements of Modern Armor.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_XJY_HENGCHI_PEDIA" Language="zh_Hans_CN">
+      <Text>恒驰汽车代表在大规模资本和产业投入下形成的现代制造项目。在游戏中，它能够以较低生产成本快速部署，并依靠本土基础设施获得防御优势，但其维护和战略资源需求并未减少。</Text>
+    </Row>
+
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_XJY_HENGCHI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+      <Text>The Hengchi Vehicle represents a modern manufacturing project supported by large-scale capital and industrial investment. In gameplay, it can be deployed at a lower Production cost and gains a defensive advantage from domestic infrastructure, while retaining the normal maintenance and strategic resource requirements of Modern Armor.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_XJY_HENGCHI_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>恒驰汽车代表在大规模资本和产业投入下形成的现代制造项目。在游戏中，它能够以较低生产成本快速部署，并依靠本土基础设施获得防御优势，但其维护和战略资源需求并未减少。</Text>
+    </Row>
+
+    <Row Tag="LOC_BUILDING_XJY_YUHU_GATE_NAME" Language="en_US">
+      <Text>Evergrande Yuhu Gate</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_XJY_YUHU_GATE_NAME" Language="zh_Hans_CN">
+      <Text>恒大御湖天下大门</Text>
+    </Row>
+
+    <Row Tag="LOC_BUILDING_XJY_YUHU_GATE_DESCRIPTION" Language="en_US">
+      <Text>A National Wonder unique to Xu Jiayin, unlocked at Urbanization and limited to one per player. Upon completion, grants Gold scaled by game speed and gives all cities +15% Production toward units, specialty districts, and non-Wonder buildings for a limited duration. Its city permanently gains 4 Housing, 2 Amenities, and 8 Gold per turn. All cities receive +25% Production toward the Guaranteed Delivery Program, increased to a final +50% in this city.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_XJY_YUHU_GATE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>许家印专属国家奇观，城市化市政解锁，每名玩家最多建造一座。建成时获得随游戏速度缩放的金币，并使所有城市在一段时间内建造单位、专业区域和非奇观建筑时获得15%生产力。所在城市永久获得4点住房、2点宜居度和每回合8金币。所有城市建造保交楼工程时生产力提高25%，本城最终提高50%。</Text>
+    </Row>
+
+    <Row Tag="LOC_BUILDING_XJY_YUHU_GATE_PEDIA" Language="en_US">
+      <Text>Large ceremonial gateways and showcase developments can be used to shape a project's image, attract attention, and support capital recovery. In gameplay, the Evergrande Yuhu Gate represents a concentrated promotional and financial recovery effort, providing a temporary production window while sustaining the core city's housing, amenities, and finances.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_XJY_YUHU_GATE_PEDIA" Language="zh_Hans_CN">
+      <Text>大型城市入口和展示性建筑常被用于塑造项目形象、吸引关注并推动资金回笼。在游戏中，恒大御湖天下大门代表一次集中宣传和资本回收，为债务压力下的帝国提供短暂的生产恢复窗口，同时维持核心城市的住房、宜居度和财政。</Text>
+    </Row>
+
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_XJY_YUHU_GATE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+      <Text>Large ceremonial gateways and showcase developments can be used to shape a project's image, attract attention, and support capital recovery. In gameplay, the Evergrande Yuhu Gate represents a concentrated promotional and financial recovery effort, providing a temporary production window while sustaining the core city's housing, amenities, and finances.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_XJY_YUHU_GATE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>大型城市入口和展示性建筑常被用于塑造项目形象、吸引关注并推动资金回笼。在游戏中，恒大御湖天下大门代表一次集中宣传和资本回收，为债务压力下的帝国提供短暂的生产恢复窗口，同时维持核心城市的住房、宜居度和财政。</Text>
+    </Row>
+
+    <Row Tag="LOC_XJY_YUHU_GATE_RECOVERY_NAME" Language="en_US">
+      <Text>Grand Opening</Text>
+    </Row>
+    <Row Tag="LOC_XJY_YUHU_GATE_RECOVERY_NAME" Language="zh_Hans_CN">
+      <Text>盛大开盘</Text>
+    </Row>
+
+    <Row Tag="LOC_XJY_YUHU_GATE_RECOVERY_DESCRIPTION" Language="en_US">
+      <Text>All cities receive +15% Production toward units, specialty districts, and non-Wonder buildings. This bonus does not apply to Wonders, the Evergrande Yuhu Gate, or city projects.</Text>
+    </Row>
+    <Row Tag="LOC_XJY_YUHU_GATE_RECOVERY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有城市建造单位、专业区域和非奇观建筑时获得15%生产力。该加成不适用于奇观、恒大御湖天下大门或城市项目。</Text>
+    </Row>
+
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_XJY_XU_JIAYIN_ANY" Language="en_US">
+      <Text>I am Xu Jiayin. Let us see what we can build together.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_XJY_XU_JIAYIN_ANY" Language="zh_Hans_CN">
+      <Text>我是许家印。让我们看看能共同创造些什么。</Text>
+    </Row>
+
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_XJY_XU_JIAYIN_ANY" Language="en_US">
+      <Text>Welcome. Shall we continue our discussion at my capital?</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_XJY_XU_JIAYIN_ANY" Language="zh_Hans_CN">
+      <Text>欢迎。我们是否前往我的首都继续商谈？</Text>
+    </Row>
+
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_XJY_XU_JIAYIN_ANY" Language="en_US">
+      <Text>Then let us meet here and speak plainly.</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_XJY_XU_JIAYIN_ANY" Language="zh_Hans_CN">
+      <Text>那么就在这里见面，开诚布公地谈一谈吧。</Text>
+    </Row>
+  </LocalizedText>
+</GameData>

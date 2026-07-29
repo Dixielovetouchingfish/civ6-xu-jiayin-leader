@@ -1,0 +1,151 @@
+INSERT INTO Players
+(
+    Domain,
+    CivilizationType,
+    LeaderType,
+    CivilizationName,
+    CivilizationIcon,
+    LeaderName,
+    LeaderIcon,
+    CivilizationAbilityName,
+    CivilizationAbilityDescription,
+    CivilizationAbilityIcon,
+    LeaderAbilityName,
+    LeaderAbilityDescription,
+    LeaderAbilityIcon,
+    Portrait,
+    PortraitBackground
+)
+VALUES
+(
+    'Players:Expansion2_Players',
+    'CIVILIZATION_CHINA',
+    'LEADER_XJY_XU_JIAYIN',
+    'LOC_CIVILIZATION_CHINA_NAME',
+    'ICON_CIVILIZATION_CHINA',
+    'LOC_LEADER_XJY_XU_JIAYIN_NAME',
+    'ICON_LEADER_XJY_XU_JIAYIN',
+    'LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_NAME',
+    'LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION2_DESCRIPTION',
+    'ICON_CIVILIZATION_CHINA',
+    'LOC_TRAIT_LEADER_XJY_PLACEHOLDER_NAME',
+    'LOC_TRAIT_LEADER_XJY_PLACEHOLDER_DESCRIPTION',
+    'ICON_LEADER_XJY_XU_JIAYIN',
+    'XJY_XU_JIAYIN_NEUTRAL',
+    'XJY_XU_JIAYIN_BACKGROUND'
+);
+
+INSERT INTO PlayerItems
+(
+    Domain,
+    CivilizationType,
+    LeaderType,
+    Type,
+    Icon,
+    Name,
+    Description,
+    SortIndex
+)
+VALUES
+(
+    'Players:Expansion2_Players',
+    'CIVILIZATION_CHINA',
+    'LEADER_XJY_XU_JIAYIN',
+    'UNIT_CHINESE_CROUCHING_TIGER',
+    'ICON_UNIT_CHINESE_CROUCHING_TIGER',
+    'LOC_UNIT_CHINESE_CROUCHING_TIGER_NAME',
+    'LOC_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION',
+    10
+);
+
+INSERT INTO PlayerItems
+(
+    Domain,
+    CivilizationType,
+    LeaderType,
+    Type,
+    Icon,
+    Name,
+    Description,
+    SortIndex
+)
+VALUES
+(
+    'Players:Expansion2_Players',
+    'CIVILIZATION_CHINA',
+    'LEADER_XJY_XU_JIAYIN',
+    'IMPROVEMENT_GREAT_WALL',
+    'ICON_IMPROVEMENT_GREAT_WALL',
+    'LOC_IMPROVEMENT_GREAT_WALL_NAME',
+    'LOC_IMPROVEMENT_GREAT_WALL_EXPANSION2_DESCRIPTION',
+    20
+);
+
+INSERT INTO PlayerItems
+(
+    Domain,
+    CivilizationType,
+    LeaderType,
+    Type,
+    Icon,
+    Name,
+    Description,
+    SortIndex
+)
+VALUES
+(
+    'Players:Expansion2_Players',
+    'CIVILIZATION_CHINA',
+    'LEADER_XJY_XU_JIAYIN',
+    'BUILDING_XJY_BAOJIAOLOU',
+    'ICON_BUILDING_XJY_BAOJIAOLOU',
+    'LOC_BUILDING_XJY_BAOJIAOLOU_NAME',
+    'LOC_BUILDING_XJY_BAOJIAOLOU_DESCRIPTION',
+    30
+);
+
+INSERT INTO PlayerItems
+(
+    Domain,
+    CivilizationType,
+    LeaderType,
+    Type,
+    Icon,
+    Name,
+    Description,
+    SortIndex
+)
+VALUES
+(
+    'Players:Expansion2_Players',
+    'CIVILIZATION_CHINA',
+    'LEADER_XJY_XU_JIAYIN',
+    'UNIT_XJY_HENGCHI',
+    'ICON_UNIT_XJY_HENGCHI',
+    'LOC_UNIT_XJY_HENGCHI_NAME',
+    'LOC_UNIT_XJY_HENGCHI_DESCRIPTION',
+    40
+);
+
+INSERT INTO PlayerItems
+(
+    Domain,
+    CivilizationType,
+    LeaderType,
+    Type,
+    Icon,
+    Name,
+    Description,
+    SortIndex
+)
+VALUES
+(
+    'Players:Expansion2_Players',
+    'CIVILIZATION_CHINA',
+    'LEADER_XJY_XU_JIAYIN',
+    'BUILDING_XJY_YUHU_GATE',
+    'ICON_BUILDING_XJY_YUHU_GATE',
+    'LOC_BUILDING_XJY_YUHU_GATE_NAME',
+    'LOC_BUILDING_XJY_YUHU_GATE_DESCRIPTION',
+    50
+);

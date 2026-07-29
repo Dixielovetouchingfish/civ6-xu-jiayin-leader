@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+  <LoadingInfo>
+    <Row
+      LeaderType="LEADER_XJY_XU_JIAYIN"
+      ForegroundImage="XJY_XU_JIAYIN_NEUTRAL"
+      BackgroundImage="XJY_XU_JIAYIN_FULL"
+      LeaderText="LOC_LOADING_INFO_LEADER_XJY_XU_JIAYIN"
+      PlayDawnOfManAudio="1"/>
+  </LoadingInfo>
+  <DiplomacyInfo>
+    <Row
+      Type="LEADER_XJY_XU_JIAYIN"
+      BackgroundImage="XJY_XU_JIAYIN_FULL"/>
+  </DiplomacyInfo>
+</GameInfo>

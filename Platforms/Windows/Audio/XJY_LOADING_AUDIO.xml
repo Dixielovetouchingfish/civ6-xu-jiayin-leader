@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\qwert\Documents\Firaxis ModBuddy\Civilization VI\EmptyMod1\EmptyMod1\Audio\WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\qwert\Documents\Firaxis ModBuddy\Civilization VI\EmptyMod1\EmptyMod1\Audio\WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\qwert\Documents\Firaxis ModBuddy\Civilization VI\EmptyMod1\EmptyMod1\Platforms\Windows\Audio\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\qwert\Documents\Firaxis ModBuddy\Civilization VI\EmptyMod1\EmptyMod1\Platforms\Windows\Audio\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="2821374098" Language="SFX">
+			<ShortName>XJY_LOADING_AUDIO</ShortName>
+			<Path>XJY_LOADING_AUDIO.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1529638035" Name="PLAY_XJY_LOADING_NARRATION"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="490838203" Language="SFX">
+					<ShortName>XJY_Loading_Narration.wav</ShortName>
+					<Path>SFX\XJY_Loading_Narration_A65A97ED.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

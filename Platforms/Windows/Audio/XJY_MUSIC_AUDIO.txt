@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3044032373	PLAY_XJY_LEADER_THEME			\Default Work Unit\PLAY_XJY_LEADER_THEME	
+	3536284315	STOP_XJY_LEADER_THEME			\Default Work Unit\STOP_XJY_LEADER_THEME	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	143737891	XJY_Leader_Theme	C:\Users\qwert\Documents\Firaxis ModBuddy\Civilization VI\EmptyMod1\EmptyMod1\Audio\WwiseProject\.cache\Windows\SFX\XJY_Leader_Theme_E600AF7B.wem	143737891.wem	\Actor-Mixer Hierarchy\Default Work Unit\XJY_Leader_Theme	
+

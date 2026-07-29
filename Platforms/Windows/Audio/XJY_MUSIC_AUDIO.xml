@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\qwert\Documents\Firaxis ModBuddy\Civilization VI\EmptyMod1\EmptyMod1\Audio\WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\qwert\Documents\Firaxis ModBuddy\Civilization VI\EmptyMod1\EmptyMod1\Audio\WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\qwert\Documents\Firaxis ModBuddy\Civilization VI\EmptyMod1\EmptyMod1\Platforms\Windows\Audio\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\qwert\Documents\Firaxis ModBuddy\Civilization VI\EmptyMod1\EmptyMod1\Platforms\Windows\Audio\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="143737891" Language="SFX">
+			<ShortName>XJY_Leader_Theme.wav</ShortName>
+			<Path>SFX\XJY_Leader_Theme_E600AF7B.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="4252082763" Language="SFX">
+			<ShortName>XJY_MUSIC_AUDIO</ShortName>
+			<Path>XJY_MUSIC_AUDIO.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3044032373" Name="PLAY_XJY_LEADER_THEME"/>
+				<Event Id="3536284315" Name="STOP_XJY_LEADER_THEME"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="143737891"/>
+			</ReferencedStreamedFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

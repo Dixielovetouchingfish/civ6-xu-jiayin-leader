@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1529638035	PLAY_XJY_LOADING_NARRATION			\Default Work Unit\PLAY_XJY_LOADING_NARRATION	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	490838203	XJY_Loading_Narration	C:\Users\qwert\Documents\Firaxis ModBuddy\Civilization VI\EmptyMod1\EmptyMod1\Audio\WwiseProject\.cache\Windows\SFX\XJY_Loading_Narration_A65A97ED.wem		\Actor-Mixer Hierarchy\Default Work Unit\XJY_Loading_Narration		119186
+
