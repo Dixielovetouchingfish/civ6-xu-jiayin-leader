@@ -30,6 +30,7 @@ local MODIFIER_SALES_CAPACITY = "MODIFIER_XJY_V12_SALES_NETWORK_TRADE_CAPACITY"
 local FULL_FINANCING_PROJECT_LIMIT = 5
 local FULL_ASSET_TAKEOVER_GOLD = 120
 local REDUCED_ASSET_TAKEOVER_GOLD = 60
+local SALES_NETWORK_STANDARD_GOLD = 200
 
 local ASSET_DURATION_BY_SPEED = {
     GAMESPEED_ONLINE = 5,
@@ -326,21 +327,6 @@ local function EndExpiredAssetTakeovers()
     end
 end
 
-local function CountTraderUnits(player)
-    local trader = GameInfo.Units["UNIT_TRADER"]
-    if trader == nil then
-        error("UNIT_TRADER row is unavailable")
-    end
-
-    local count = 0
-    for _, unit in player:GetUnits():Members() do
-        if unit:GetType() == trader.Index then
-            count = count + 1
-        end
-    end
-    return count
-end
-
 local function GrantSalesNetwork(playerID, districtType, x, y)
     if not IsXuJiayinPlayer(playerID) then
         return
@@ -377,37 +363,36 @@ local function GrantSalesNetwork(playerID, districtType, x, y)
             .. tostring(x) .. "," .. tostring(y))
     end
 
+    local speedType, costMultiplier = GetGameSpeedData()
+    local actualGold = ScaleGold(SALES_NETWORK_STANDARD_GOLD, costMultiplier)
+    local treasury = player:GetTreasury()
+    if treasury == nil then
+        error("Sales Network treasury unavailable for player "
+            .. tostring(playerID))
+    end
+
     -- Commit the serialized guard before applying either reward. This protects
-    -- against duplicate engine callbacks and save/reload replay.
+    -- against duplicate engine callbacks and save/reload replay. No unit is
+    -- created here: the previous scripted Trader left TradeRouteChooser with
+    -- incomplete route-origin state and has been removed by the v1.2.1 hotfix.
     player:SetProperty(PROPERTY_SALES_GRANTED, true)
     player:AttachModifierByID(MODIFIER_SALES_CAPACITY)
-
-    local tradersBefore = CountTraderUnits(player)
-    UnitManager.InitUnitValidAdjacentHex(
-        playerID,
-        "UNIT_TRADER",
-        city:GetX(),
-        city:GetY(),
-        5
-    )
-    local tradersAfter = CountTraderUnits(player)
-    if tradersAfter <= tradersBefore then
-        Log("ERROR: Sales Network trade capacity granted, but no legal Trader "
-            .. "spawn was found near city " .. tostring(city:GetID()))
-    end
+    treasury:ChangeGoldBalance(actualGold)
 
     SendUserNotification(
         playerID,
         "LOC_XJY_V12_SALES_NETWORK_NAME",
         "LOC_XJY_V12_SALES_NETWORK_NOTIFICATION",
-        nil,
+        actualGold,
         city:GetX(),
         city:GetY()
     )
     Log("sales network granted: player=" .. tostring(playerID)
         .. ", city=" .. tostring(city:GetID())
         .. ", district=" .. tostring(districtType)
-        .. ", traderCreated=" .. tostring(tradersAfter > tradersBefore))
+        .. ", standardGold=" .. tostring(SALES_NETWORK_STANDARD_GOLD)
+        .. ", actualGold=" .. tostring(actualGold)
+        .. ", speed=" .. tostring(speedType))
 end
 
 local function OnCityConquered(...)

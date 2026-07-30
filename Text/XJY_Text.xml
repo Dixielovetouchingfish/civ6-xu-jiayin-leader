@@ -2,24 +2,24 @@
 <GameData>
   <LocalizedText>
     <Row Tag="LOC_XJY_MOD_NAME" Language="en_US">
-      <Text>Xu Jiayin Leads China v1.2 — Full Expansion Update</Text>
+      <Text>Xu Jiayin Leads China v1.2.1 — Stability Hotfix</Text>
     </Row>
     <Row Tag="LOC_XJY_MOD_NAME" Language="zh_Hans_CN">
-      <Text>许家印领导中华帝国 v1.2——全面扩张更新</Text>
+      <Text>许家印领导中华帝国 v1.2.1——稳定性热修复</Text>
     </Row>
 
     <Row Tag="LOC_XJY_MOD_TEASER" Language="en_US">
-      <Text>Version 1.2 expands Xu Jiayin's early development with city cash flow, construction security, military mobilization, asset takeovers, and a nationwide sales network.</Text>
+      <Text>Version 1.2.1 stabilizes the Sales Network reward and keeps Construction Site Security active through the world's Classical Era.</Text>
     </Row>
     <Row Tag="LOC_XJY_MOD_TEASER" Language="zh_Hans_CN">
-      <Text>v1.2“全面扩张更新”：以城市现金流、工地保安、军事动员、资产接管和全国销售网络扩展许家印的前期开发。</Text>
+      <Text>v1.2.1“稳定性热修复”：稳定销售网络奖励，并让工地保安持续至世界古典时代结束。</Text>
     </Row>
 
     <Row Tag="LOC_XJY_MOD_DESCRIPTION" Language="en_US">
-      <Text>Adds Xu Jiayin as an alternate leader for China in Civilization VI: Gathering Storm. Version 1.2 preserves the established three-phase economy while adding real early-game city, military, conquest, and trade mechanics.</Text>
+      <Text>Adds Xu Jiayin as an alternate leader for China in Civilization VI: Gathering Storm. Version 1.2.1 removes the unstable scripted Trader reward, replaces it with speed-scaled Gold, and corrects the world-era timing of Construction Site Security.</Text>
     </Row>
     <Row Tag="LOC_XJY_MOD_DESCRIPTION" Language="zh_Hans_CN">
-      <Text>为《文明VI：风云变幻》的中华帝国添加替代领袖许家印。v1.2保留既有三阶段经济结构，并加入实际生效的前期城市、军事、征服和贸易机制。</Text>
+      <Text>为《文明VI：风云变幻》的中华帝国添加替代领袖许家印。v1.2.1移除不稳定的脚本商人奖励，改为随游戏速度缩放的金币，并修正工地保安的世界时代判定。</Text>
     </Row>
 
     <Row Tag="LOC_LEADER_XJY_XU_JIAYIN_NAME" Language="en_US">
@@ -58,10 +58,10 @@
     </Row>
 
     <Row Tag="LOC_TRAIT_LEADER_XJY_PLACEHOLDER_DESCRIPTION" Language="en_US">
-      <Text>【Glorious Expansion | Ancient and Classical】[NEWLINE]Cities grow 25% faster and gain +1 Housing. City Centers provide +2 Food, +2 Production, and +2 Gold, while each Population provides +0.25 Science. Settlers gain +25% Production, non-Wonder buildings gain +30%, and each city's first specialty district gains +100%. Cities gain +25% Production toward land combat units, which receive +8 Combat Strength against Barbarians.[NEWLINE]Newly founded cities can undertake Early Development Projects: small undeveloped cities receive Loyalty, delivering the first specialty district brings Presale Proceeds and temporary Amenities, while prolonged delays cost Gold. Taking over an enemy city provides financing and 10 turns of construction support. Completing the first Commercial Hub or Harbor establishes a Sales Network, granting +1 Trade Route Capacity and a free Trader.[NEWLINE][NEWLINE]【High-Leverage Expansion | Medieval and Renaissance】[NEWLINE]Specialty districts and non-Wonder buildings gain +20% Production, while Great Merchant and Great Engineer points increase by 50%. A city receives 100 Gold the first time it reaches 3 specialty districts; from 3 districts onward it loses 4 Gold per turn, and at 5 districts it also loses 1 Amenity.[NEWLINE][NEWLINE]【Debt Restructuring | Industrial Era and later】[NEWLINE]All cities produce 30% less Gold. Cities with 3 specialty districts lose another 6 Gold per turn; at 5 districts they additionally lose 4 Gold, 1 Amenity, 15% Production, and 10% Science. A Guaranteed Delivery Program offsets the Production penalty and reduces the cost of purchasing land combat units in that city by 20%.</Text>
+      <Text>【Glorious Expansion | Ancient and Classical】[NEWLINE]Cities expand rapidly and gain additional yields, while Settlers, buildings, the first specialty district in each city, and land-unit training are completed faster. Land combat units gain +8 Combat Strength against Barbarians. Low-population new cities can use Early Development Projects for financing and temporary Amenities. Capturing and retaining a city founded by another civilization triggers Asset Takeover. The first Commercial Hub or Harbor completed permanently grants +1 Trade Route Capacity and speed-scaled Gold.[NEWLINE][NEWLINE]【High-Leverage Expansion | Medieval and Renaissance】[NEWLINE]Specialty districts and buildings are constructed faster, and Great Merchant and Great Engineer points increase. Cities with too many districts incur additional debt and Amenity pressure.[NEWLINE][NEWLINE]【Debt Restructuring | Industrial Era and later】[NEWLINE]National Gold output falls, while district-dense cities suffer heavier debt, Amenity, and yield penalties. A Guaranteed Delivery Program can ease part of the Production pressure.</Text>
     </Row>
     <Row Tag="LOC_TRAIT_LEADER_XJY_PLACEHOLDER_DESCRIPTION" Language="zh_Hans_CN">
-      <Text>【风光无限｜远古、古典】[NEWLINE]城市人口增长+25%、住房+1；城市中心+2食物、+2生产力、+2金币，每人口+0.25科技。开拓者+25%生产力，非奇观建筑+30%，每城首个专业区域+100%；训练陆地战斗单位+25%，其对蛮族+8。[NEWLINE]自建新城可进行“前期开发项目”：低人口未开发时获得忠诚度，首区交付获得预售回款与临时宜居度；久未开发则损失金币。接管敌城可获得融资及10回合建设支援。首次建成商业中心或港口时，贸易路线容量+1并获得1名商人。[NEWLINE][NEWLINE]【高杠杆扩张｜中古、文艺复兴】[NEWLINE]专业区域和非奇观建筑+20%生产力，大商人与大工程师点数+50%。城市首次达到3个专业区域时获得100金币；拥有3个区域后每回合-4金币，5个区域后再-1宜居度。[NEWLINE][NEWLINE]【债务重组｜工业及以后】[NEWLINE]所有城市金币产出-30%。拥有3个专业区域的城市每回合再损失6金币；达到5个后额外-4金币、-1宜居度、-15%生产力和-10%科技。保交楼可抵消生产力惩罚，并使本城购买陆地战斗单位的费用降低20%。</Text>
+      <Text>【风光无限｜远古、古典】[NEWLINE]城市快速扩张并获得额外产出；开拓者、建筑、首个专业区域和陆军训练速度提高。陆地战斗单位对蛮族+8战斗力。低人口新城可通过前期开发项目获得融资和临时宜居度。首次占领并保留其他文明建立的城市时触发资产接管。首次建成商业中心或港口时，永久增加1点贸易路线容量并获得一笔随游戏速度缩放的金币。[NEWLINE][NEWLINE]【高杠杆扩张｜中古、文艺复兴】[NEWLINE]专业区域与建筑建造加快，大商人与大工程师点数提高；城市区域过多时产生额外债务和宜居度压力。[NEWLINE][NEWLINE]【债务重组｜工业时代以后】[NEWLINE]全国金币产出下降，区域密集城市承担更高债务、宜居度和产出惩罚；保交楼工程可缓解部分生产压力。</Text>
     </Row>
 
     <Row Tag="LOC_XJY_V12_CITY_CASH_FLOW_NAME" Language="en_US">
@@ -107,10 +107,10 @@
       <Text>销售网络</Text>
     </Row>
     <Row Tag="LOC_XJY_V12_SALES_NETWORK_NOTIFICATION" Language="en_US">
-      <Text>The nationwide sales network has been established: Trade Route Capacity +1 and gain a free Trader.</Text>
+      <Text>The nationwide sales network has been established: Trade Route Capacity +1 and gain {1_Amount} Gold.</Text>
     </Row>
     <Row Tag="LOC_XJY_V12_SALES_NETWORK_NOTIFICATION" Language="zh_Hans_CN">
-      <Text>全国销售网络已经建立：贸易路线容量+1，并免费获得一名商人。</Text>
+      <Text>全国销售网络已经建立：贸易路线容量+1，并获得{1_Amount}金币。</Text>
     </Row>
 
     <Row Tag="LOC_BUILDING_XJY_BAOJIAOLOU_NAME" Language="en_US">

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="4a81f478-6f2b-4ce8-80ae-589fac0a272f" version="3">
+<Mod id="4a81f478-6f2b-4ce8-80ae-589fac0a272f" version="4">
   <Properties>
     <Name>LOC_XJY_MOD_NAME</Name>
     <Description>LOC_XJY_MOD_DESCRIPTION</Description>
-    <Created>1785392500</Created>
+    <Created>1785429086</Created>
     <Teaser>LOC_XJY_MOD_TEASER</Teaser>
     <Authors>qwert</Authors>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>

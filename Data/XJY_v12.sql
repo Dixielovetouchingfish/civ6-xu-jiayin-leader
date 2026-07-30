@@ -1,5 +1,5 @@
 -- ===========================================================================
--- Xu Jiayin v1.2: Full Expansion Update.
+-- Xu Jiayin v1.2.1: Stability Hotfix.
 -- This incremental patch is loaded after XJY_v11.sql.
 -- ===========================================================================
 
@@ -45,49 +45,34 @@ WHERE RequirementSetId = 'REQUIREMENTSET_XJY_V12_LAND_COMBAT_VS_BARBARIAN';
 DELETE FROM RequirementSets
 WHERE RequirementSetId = 'REQUIREMENTSET_XJY_V12_LAND_COMBAT_VS_BARBARIAN';
 
--- All new early effects use the Xu Jiayin player's personal era. Inverting the
--- official "player era at least Medieval" requirement yields Ancient/Classical
--- eligibility and makes every attached effect end immediately on reaching
--- Medieval, independently of the world era.
+-- Remove the obsolete personal-era gate. It caused the early combat effect to
+-- end when Xu Jiayin personally unlocked a Medieval technology, even while the
+-- world remained in the Classical Era.
+DELETE FROM RequirementSetRequirements
+WHERE RequirementSetId = 'REQUIREMENTSET_XJY_V12_PLAYER_BEFORE_MEDIEVAL';
+
+DELETE FROM RequirementArguments
+WHERE RequirementId = 'REQUIREMENT_XJY_V12_PLAYER_BEFORE_MEDIEVAL';
+
+DELETE FROM Requirements
+WHERE RequirementId = 'REQUIREMENT_XJY_V12_PLAYER_BEFORE_MEDIEVAL';
+
+DELETE FROM RequirementSets
+WHERE RequirementSetId = 'REQUIREMENTSET_XJY_V12_PLAYER_BEFORE_MEDIEVAL';
+
+-- The official REQUIREMENT_GAME_ERA_IS structure is already assembled by
+-- XJY_Gameplay.sql as REQUIREMENTSET_XJY_ERA_ANCIENT_CLASSICAL (TEST_ANY:
+-- ERA_ANCIENT or ERA_CLASSICAL). All v1.2 early static effects reuse that
+-- world-era gate, keeping the phase internally consistent without Lua polling.
 INSERT INTO RequirementSets
 (
     RequirementSetId,
     RequirementSetType
 )
 VALUES
-    (
-        'REQUIREMENTSET_XJY_V12_PLAYER_BEFORE_MEDIEVAL',
-        'REQUIREMENTSET_TEST_ALL'
-    ),
-    (
-        'REQUIREMENTSET_XJY_V12_LAND_UNITS',
-        'REQUIREMENTSET_TEST_ALL'
-    );
-
-INSERT INTO Requirements
 (
-    RequirementId,
-    RequirementType,
-    Inverse
-)
-VALUES
-(
-    'REQUIREMENT_XJY_V12_PLAYER_BEFORE_MEDIEVAL',
-    'REQUIREMENT_PLAYER_ERA_AT_LEAST',
-    1
-);
-
-INSERT INTO RequirementArguments
-(
-    RequirementId,
-    Name,
-    Value
-)
-VALUES
-(
-    'REQUIREMENT_XJY_V12_PLAYER_BEFORE_MEDIEVAL',
-    'EraType',
-    'ERA_MEDIEVAL'
+    'REQUIREMENTSET_XJY_V12_LAND_UNITS',
+    'REQUIREMENTSET_TEST_ALL'
 );
 
 INSERT INTO RequirementSetRequirements
@@ -96,14 +81,10 @@ INSERT INTO RequirementSetRequirements
     RequirementId
 )
 VALUES
-    (
-        'REQUIREMENTSET_XJY_V12_PLAYER_BEFORE_MEDIEVAL',
-        'REQUIREMENT_XJY_V12_PLAYER_BEFORE_MEDIEVAL'
-    ),
-    (
-        'REQUIREMENTSET_XJY_V12_LAND_UNITS',
-        'REQUIRES_UNIT_IS_LAND_DOMAIN'
-    );
+(
+    'REQUIREMENTSET_XJY_V12_LAND_UNITS',
+    'REQUIRES_UNIT_IS_LAND_DOMAIN'
+);
 
 -- City Cash Flow: each owned City Center receives its own +2 Gold.
 INSERT INTO Modifiers
@@ -117,7 +98,7 @@ VALUES
 (
     'MODIFIER_XJY_V12_CITY_CENTER_GOLD',
     'MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE',
-    'REQUIREMENTSET_XJY_V12_PLAYER_BEFORE_MEDIEVAL',
+    'REQUIREMENTSET_XJY_ERA_ANCIENT_CLASSICAL',
     'REQUIREMENTSET_XJY_DISTRICT_IS_CITY_CENTER'
 );
 
@@ -147,7 +128,7 @@ VALUES
 (
     'MODIFIER_XJY_V12_CONSTRUCTION_SITE_SECURITY',
     'MODIFIER_PLAYER_UNITS_ADJUST_BARBARIAN_COMBAT',
-    'REQUIREMENTSET_XJY_V12_PLAYER_BEFORE_MEDIEVAL',
+    'REQUIREMENTSET_XJY_ERA_ANCIENT_CLASSICAL',
     'REQUIREMENTSET_XJY_V12_LAND_UNITS'
 );
 
@@ -190,37 +171,37 @@ VALUES
     (
         'MODIFIER_XJY_V12_MOBILIZATION_RECON',
         'MODIFIER_PLAYER_CITIES_ADJUST_MILITARY_UNITS_PRODUCTION',
-        'REQUIREMENTSET_XJY_V12_PLAYER_BEFORE_MEDIEVAL'
+        'REQUIREMENTSET_XJY_ERA_ANCIENT_CLASSICAL'
     ),
     (
         'MODIFIER_XJY_V12_MOBILIZATION_MELEE',
         'MODIFIER_PLAYER_CITIES_ADJUST_MILITARY_UNITS_PRODUCTION',
-        'REQUIREMENTSET_XJY_V12_PLAYER_BEFORE_MEDIEVAL'
+        'REQUIREMENTSET_XJY_ERA_ANCIENT_CLASSICAL'
     ),
     (
         'MODIFIER_XJY_V12_MOBILIZATION_RANGED',
         'MODIFIER_PLAYER_CITIES_ADJUST_MILITARY_UNITS_PRODUCTION',
-        'REQUIREMENTSET_XJY_V12_PLAYER_BEFORE_MEDIEVAL'
+        'REQUIREMENTSET_XJY_ERA_ANCIENT_CLASSICAL'
     ),
     (
         'MODIFIER_XJY_V12_MOBILIZATION_ANTI_CAVALRY',
         'MODIFIER_PLAYER_CITIES_ADJUST_MILITARY_UNITS_PRODUCTION',
-        'REQUIREMENTSET_XJY_V12_PLAYER_BEFORE_MEDIEVAL'
+        'REQUIREMENTSET_XJY_ERA_ANCIENT_CLASSICAL'
     ),
     (
         'MODIFIER_XJY_V12_MOBILIZATION_LIGHT_CAVALRY',
         'MODIFIER_PLAYER_CITIES_ADJUST_MILITARY_UNITS_PRODUCTION',
-        'REQUIREMENTSET_XJY_V12_PLAYER_BEFORE_MEDIEVAL'
+        'REQUIREMENTSET_XJY_ERA_ANCIENT_CLASSICAL'
     ),
     (
         'MODIFIER_XJY_V12_MOBILIZATION_HEAVY_CAVALRY',
         'MODIFIER_PLAYER_CITIES_ADJUST_MILITARY_UNITS_PRODUCTION',
-        'REQUIREMENTSET_XJY_V12_PLAYER_BEFORE_MEDIEVAL'
+        'REQUIREMENTSET_XJY_ERA_ANCIENT_CLASSICAL'
     ),
     (
         'MODIFIER_XJY_V12_MOBILIZATION_SIEGE',
         'MODIFIER_PLAYER_CITIES_ADJUST_MILITARY_UNITS_PRODUCTION',
-        'REQUIREMENTSET_XJY_V12_PLAYER_BEFORE_MEDIEVAL'
+        'REQUIREMENTSET_XJY_ERA_ANCIENT_CLASSICAL'
     );
 
 INSERT INTO ModifierArguments
