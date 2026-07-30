@@ -119,3 +119,13 @@ A custom leader mod for China in Civilization VI: Gathering Storm.
 
 ```text
 文档\My Games\Sid Meier's Civilization VI\Mods
+## v1.2 全面扩张更新
+
+- 修复“工地保安”对蛮族战斗力未生效的问题。
+- 远古与古典时代，陆地战斗单位对蛮族+8战斗力。
+- 城市中心额外提供+2金币。
+- 训练陆地战斗单位时生产力提高25%。
+- 新增“资产接管”机制。
+- 新增“销售网络”机制。
+- 首次完成商业中心或港口时，贸易路线容量+1并获得一名商人。
+- 精简领袖能力说明。

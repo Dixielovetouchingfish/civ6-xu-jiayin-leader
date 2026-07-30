@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context Name="XJY_YuhuGatePopup" Hidden="1">
+  <Container ID="Root" Size="parent,parent" ConsumeAllMouse="1">
+    <Container ID="ModalBackground" Style="ModalScreen"/>
+    <Box Size="parent,parent" Color="0,0,0,170" ConsumeMouse="1"/>
+
+    <Grid ID="PopupPanel" Anchor="C,C" Size="1020,731">
+      <Box Size="parent,parent" Color="13,20,25,248"/>
+      <Box Anchor="L,T" Size="parent,2" Color="172,143,83,255"/>
+      <Box Anchor="L,B" Size="parent,2" Color="172,143,83,255"/>
+
+      <Label
+        ID="Title"
+        Anchor="C,T"
+        Offset="0,18"
+        Style="WindowHeader"
+        Align="Center"
+        WrapWidth="960"
+        String="LOC_XJY_YUHU_GATE_POPUP_TITLE"/>
+
+      <Image
+        ID="PopupImage"
+        Anchor="C,T"
+        Offset="0,62"
+        Size="960,540"
+        Texture="XJY_YUHU_GATE_POPUP"
+        StretchMode="Auto"/>
+
+      <Label
+        ID="Caption"
+        Anchor="C,T"
+        Offset="0,614"
+        Style="BodyText16"
+        Align="Center"
+        WrapWidth="940"
+        String="LOC_XJY_YUHU_GATE_POPUP_CAPTION"/>
+
+      <GridButton
+        ID="ContinueButton"
+        Anchor="C,B"
+        Offset="0,18"
+        Size="220,40"
+        Style="MainButton"
+        String="LOC_XJY_YUHU_GATE_POPUP_CONTINUE"/>
+    </Grid>
+  </Container>
+</Context>

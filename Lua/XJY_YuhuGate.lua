@@ -10,6 +10,8 @@ local BUILDING_TYPE = "BUILDING_XJY_YUHU_GATE"
 local PROPERTY_REWARD_GRANTED = "XJY_YUHU_GATE_COMPLETION_REWARD_GRANTED"
 local PROPERTY_RECOVERY_REMAINING = "XJY_YUHU_GATE_RECOVERY_REMAINING_TURNS"
 local PROPERTY_RECOVERY_LAST_TURN = "XJY_YUHU_GATE_RECOVERY_LAST_PROCESSED_TURN"
+local PROPERTY_POPUP_SHOWN = "XJY_YUHU_GATE_POPUP_SHOWN"
+local POPUP_SHOWN_EVENT = "XJY_YuhuGatePopupShown"
 
 local BASE_GOLD_REWARD = 800
 local BASE_RECOVERY_TURNS = 10
@@ -235,6 +237,62 @@ local function OnPlayerTurnStarted(...)
     end
 end
 
+local function HandlePopupShown(playerID, parameters)
+    if not IsXuJiayinPlayer(playerID) then
+        Log("Ignored popup state request from non-Xu player "
+            .. tostring(playerID))
+        return
+    end
+
+    local player = Players[playerID]
+    if player == nil or player:IsHuman() ~= true then
+        Log("Ignored popup state request from invalid/non-human player "
+            .. tostring(playerID))
+        return
+    end
+
+    if type(parameters) ~= "table"
+        or parameters.BuildingType ~= BUILDING_TYPE
+        or type(parameters.CityID) ~= "number" then
+        Log("Ignored malformed popup state request from player "
+            .. tostring(playerID))
+        return
+    end
+
+    local city = CityManager.GetCity(playerID, parameters.CityID)
+    if city == nil or city:GetOwner() ~= playerID then
+        Log("Ignored popup state request for unresolved/non-owned city")
+        return
+    end
+
+    local gate = GameInfo.Buildings[BUILDING_TYPE]
+    local cityBuildings = city:GetBuildings()
+    if gate == nil
+        or cityBuildings == nil
+        or not cityBuildings:HasBuilding(gate.Index) then
+        Log("Ignored popup state request before Gate construction")
+        return
+    end
+
+    if city:GetProperty(PROPERTY_POPUP_SHOWN) ~= nil then
+        Log("Ignored duplicate persisted popup state for city "
+            .. tostring(parameters.CityID))
+        return
+    end
+
+    city:SetProperty(PROPERTY_POPUP_SHOWN, true)
+    Log("Persisted popup shown state for player " .. tostring(playerID)
+        .. ", city " .. tostring(parameters.CityID))
+end
+
+local function OnPopupShown(...)
+    local success, message = pcall(HandlePopupShown, ...)
+    if not success then
+        Log("ERROR in " .. POPUP_SHOWN_EVENT .. ": " .. tostring(message))
+    end
+end
+
 GameEvents.BuildingConstructed.Add(OnBuildingConstructed)
 GameEvents.PlayerTurnStarted.Add(OnPlayerTurnStarted)
+GameEvents.XJY_YuhuGatePopupShown.Add(OnPopupShown)
 Log("Gameplay script initialized")
